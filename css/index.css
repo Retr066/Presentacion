@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+.header{
+    background-color: #4D50A5;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__correo-label{
+   margin-right: 30px;
+   color: #fff;
+}
+.header__correo-label:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header__logo{
+    width:300px;
+    margin-left: 50px   ;
+}
+.titles{
+    background-color: #ffffff;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;  
+    justify-content:space-evenly;
+    align-items:center;
+}
+.titles > h2{
+ cursor: pointer;
+}
+
+.titles__login{
+    width:50px;
+    cursor: pointer;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items:center;
+    width: 100%;
+   min-height: calc(100vh - 198px);
+  background-image: url(/img/colegio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__img{
+    width: 150px;
+}
+.main_button{
+    background: #C4C4C4;
+    border-radius: 15px;
+    cursor: pointer;
+    padding:10px 15px;
+    border: none;
+}
+.main__title{
+    text-align:center;
+    width: 300px;
+    font-size:30px;
+}
+.social{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #1D2435;
+}
+.social__contacts{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    
+}
+.social__contacts-adress{
+    width: 250px;
+    margin-bottom: 7px;
+}
+.social__contacts-number{
+    margin-bottom: 7px;
+}
+
+.social__media-tile{
+    color: #fff;
+}
+.social__media--networks{
+    display: flex;
+    align-items: flex-start;
+}
+.social__media--networks > img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+    
+}
+.social__media--networks-instragram{
+  object-fit: contain;
+
+}
+.social__media--networks-school{
+    object-fit: contain;
+}
+.footer{
+    display: flex; 
+    justify-content:center;
+    background: #000;
+}
+.footer__label{
+    display: flex;
+    
+    color: #fff;
+}
