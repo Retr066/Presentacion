@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/wasap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -73,6 +75,28 @@
     
     </div>
 </section>
+<section>
+    <!-- CONTADOR -->
+<div class ="count">
+    <div class="count_contenedor">
+        <div class="count_contenedor-item">
+            <img class="count_contenedor-size" src="img/estudiante.png" alt="estudiante">
+            <span class="count_contenedor-cant" id="cont1">0</span>
+            <span class="count_contenedor-segui">Estudiantes</span>
+        </div>
+        <div class="count_contenedor-item">
+            <img class="count_contenedor-size" src="img/apreton.png" alt="apreton">
+            <span class="count_contenedor-cant" id="cont2">0</span>
+            <span class="count_contenedor-segui">Colaboradores</span>
+        </div>
+        <div class="count_contenedor-item">
+            <img class="count_contenedor-colegio" src="img/colegio.png" alt="colegio">
+            <span class="count_contenedor-cant" id="cont3">0</span>
+            <span class="count_contenedor-segui">Años de servicio</span></div>
+    </div>
+</div>
+</section>
+    <!-- CONTACTANOS -->
     <section id="section-4" class="social">
         <div class="social__contacts">
             <h2 class="social__contacts-title">Contactanos:</h2>
@@ -83,28 +107,53 @@
             <h2 class="social__media-tile">Nuestras Redes</h2>
             <div class="socialmedia--networks">
                 <!-- Instragram -->
-                <a href="https://www.instagram.com/liceo.sanluis/?hl=es" target="_blank"><img  class="socialmedia--networks-instragram ancho"
-                        src="img/instagram.png" alt="instragram"> </a>
+                <a href="https://www.instagram.com/liceo.sanluis/?hl=es" target="_blank"><img
+                        class="socialmedia--networks-instragram ancho" src="img/instagram.png" alt="instragram"> </a>
 
                 <!-- FACEBOOK -->
                 <a href="https://www.facebook.com/RamirezBarinagaMaristasOficial" target="_blank">
-                    <img   class="ancho socialmedia--networks-facebook" src="img/icons8-facebook.svg" alt="facebook">
+                    <img class="ancho socialmedia--networks-facebook" src="img/icons8-facebook.svg" alt="facebook">
                 </a>
                 <!-- //MARISTAS -->
-                <a href="https://barinaga.edu.pe/" target="_blank"><img 
-                        class="socialmedia--networks-school ancho" src="img/logo.png" alt="school"></a>
-                <!-- //WHATSAP -->
-                <a href="https://api.whatsapp.com/send?phone=51985594877&text=Hola%20sean%20bienvenido%20al%20Colegio%20Martistas%20!!"
-                    target="_blank">
-                    <img  class="social__media--networks-whatsap ancho" src="img/wasap.gif"
-                        alt="whatsap">
+                <a href="https://barinaga.edu.pe/" target="_blank"><img class="socialmedia--networks-school ancho"
+                        src="img/logo.png" alt="school"></a>
+                <!-- MESENGER -->
+                <a href="http://m.me/208135596572471" class="float float-mesenger" target="_blank">
+                    <img class="social__media--networks-whatsap ancho my-float_mesenger" src="img/mesenger.gif"
+                        alt="mesenger">
                 </a>
-
             </div>
         </div>
+        <!-- boton wasap -->
+        <div class="nav-bottom">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                        <i class="material-icons icon-font-color">close</i>
+                    </button>
+                    <div class="container_wasap">
+                     <img src="img/logo.png" width="50"> 
+                     <p>Hola, ¿en que podemos ayudarle? </p>
+                    </div>
+                </div>
+                <div class="content-whatsapp -bottom">
+                    <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="material-icons icon-font-color--black">send</i>
+                    </button>
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+
+                <img class="social__media--networks-whatsap ancho my-float_wasap" src="img/wasap.gif" alt="whatsap">
+            </button>
+        </div>
     </section>
+    
     <footer class="footer">
         <label class="footer__label">@Todos los derechos reservados byRetr0</label>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

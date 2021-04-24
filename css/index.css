@@ -69,7 +69,7 @@ html{
     align-items:center;
     width: 100%;
    min-height: calc(100vh - 150px);
-  background-image: url(/img/colegio.jpg);
+  background-image: url(../img/colegio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -193,4 +193,77 @@ html{
     width :50px;
     height :50px;
 }
-
+/* FLOTANTES DESDE AQUI */
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    right: 90px;
+    background-color: #0d61ef;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+  }
+  
+  .my-float_wasap {
+    margin-top: -3px;
+  }
+  .my-float_mesenger {
+    margin-top: 6px;
+  }
+  .float:hover {
+    text-decoration: none;
+    color: #c9cfcb;
+    background-color: #fff;
+  }
+  /* CONTADORES */
+  .count {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeef3;
+  }
+  .count_contenedor {
+    height: 350px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .count_contenedor-item {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: bold;
+    box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+      -8px -8px 16px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  .count_contenedor-item span:nth-child(1) {
+    font-size: 2.8em;
+    padding-bottom: 10px;
+  }
+  .count_contenedor-size {
+    width: 60px;
+    height: 60px;
+  }
+  .count_contenedor-segui {
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .count_contenedor-cant {
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+  
